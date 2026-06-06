@@ -1,0 +1,36 @@
+.box{
+    border: 2px solid black;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 14px 16px;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: white;
+  cursor: pointer;
+  padding: 14px 16px;
+}
+
+.tab button.active {
+    border-bottom: 2px solid black;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+
+
+
+
+
+

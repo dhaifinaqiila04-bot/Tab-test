@@ -1,9 +1,9 @@
 .box{
-    border: 2px solid black;
-    width: 400px;
-    margin: 0 auto;
-    border-radius: 10px;
-    padding: 14px 16px;
+  border: 2px solid black;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 14px 16px;
 }
 
 .tab {
@@ -19,7 +19,7 @@
 }
 
 .tab button.active {
-    border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .tabcontent {
@@ -27,6 +27,56 @@
   padding: 6px 12px;
   border-top: none;
 }
+
+.cookie {
+  position: fixed;
+  bottom: 24px;   
+  right: 24px;    
+  z-index: 9999;  
+  display: none;
+  width: 250px;
+  background-color: black; 
+  color: #ffffff;
+  border-radius: 16px;       
+  padding: 14px 16px;
+}
+
+.btn-cancel{
+  all: unset;
+  float: right;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-cancel:hover{
+  font-weight: bold;
+}
+
+.cookie p {
+  color: white;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 110px;
+}
+
+.btn-accept {
+  color: black;
+  cursor: pointer;
+  padding: 14px 16px;
+  width: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: larger;
+}
+
+.btn-accept:hover {
+  background-color: rgb(185, 185, 185) ;
+
+}
+
+
+
 
 
 
